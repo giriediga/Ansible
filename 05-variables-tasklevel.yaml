@@ -2,7 +2,7 @@
 - name: variables from PLAY level
   hosts: localhost
   vars:
-    Course: "DevOps"
+    Course: "DevOps with azure"
     Trainer: "Sivakumar"
     Duration: "110HRS"
   tasks:
