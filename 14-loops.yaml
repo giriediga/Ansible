@@ -1,5 +1,6 @@
 - name: install packages
   hosts: localhost
+  become: yes
   tasks:
   - name: print key value pair
     ansible.builtin.package:
