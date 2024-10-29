@@ -8,6 +8,6 @@
       state: "{{item.state}}"
     loop:
     - {name: 'git', state: 'present'} # to install git
-    - {name: 'mysql', state: 'obsent'} # to unistal mysql
-    - {name: 'postfix', state: 'obsent'} # to uninstall postfix
-    - {name: 'ngins', state: 'present'} # to install nginx
+    - {name: 'mysql', state: 'absent'} # to unistal mysql
+    - {name: 'postfix', state: 'absent'} # to uninstall postfix
+    - {name: 'nginx', state: 'present'} # to install nginx
