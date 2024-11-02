@@ -4,9 +4,9 @@
   tasks:
   - name: install nginx package
     ansible.builtin.package:
-      name: nginx
+      name: mongodb
       state: present
   - name: run nginx
     ansible.builtin.service:
-      name: nginx
+      name: mongodb
       state: started
